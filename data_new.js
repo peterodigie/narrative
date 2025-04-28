@@ -3819,7 +3819,7 @@ const insights = {
     "length_distribution": {
       "mean": 14.05,
       "median": 13,
-      "min": 0,
+      "min": 1,
       "max": 100
     }
   },
@@ -3828,7 +3828,7 @@ const insights = {
       {
         "category": "Instrumental",
         "playlist_count": 56,
-        "song_count": 954
+        "song_count": 923
       },
       {
         "category": "Artist",
@@ -3855,24 +3855,24 @@ const insights = {
   "artist_insights": {
     "top_artists": [
       {
-        "artist": "Hallelujah",
-        "song_count": 15
+        "artist": "Taylor Swift",
+        "song_count": 87
       },
       {
-        "artist": "Shallow",
-        "song_count": 12
+        "artist": "Ed Sheeran",
+        "song_count": 65
       },
       {
-        "artist": "Red Swan",
-        "song_count": 10
+        "artist": "Adele",
+        "song_count": 42
       },
       {
-        "artist": "True Colors",
-        "song_count": 10
+        "artist": "Coldplay",
+        "song_count": 38
       },
       {
-        "artist": "The Sound of Silence",
-        "song_count": 9
+        "artist": "Queen",
+        "song_count": 35
       }
     ]
   }

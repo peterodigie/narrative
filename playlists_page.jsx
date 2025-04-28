@@ -33,7 +33,7 @@ export default function AllPlaylistsPage() {
   return (
     <div className="container mx-auto p-4">
       <div className="mb-6">
-        <Link href="/playlist" className="text-blue-500 hover:underline">
+        <Link href="/" className="text-blue-500 hover:underline">
           ← Back to Home
         </Link>
       </div>
@@ -62,7 +62,7 @@ export default function AllPlaylistsPage() {
                     {playlist.name}
                   </td>
                   <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
-                    <Link href={`/playlist/category/${playlist.category_id}`} className="text-blue-500 hover:underline">
+                    <Link href={`/category/${playlist.category_id}`} className="text-blue-500 hover:underline">
                       {playlist.category_name}
                     </Link>
                   </td>
@@ -70,7 +70,7 @@ export default function AllPlaylistsPage() {
                     {playlist.song_count}
                   </td>
                   <td className="relative whitespace-nowrap py-4 pl-3 pr-4 text-right text-sm font-medium sm:pr-6">
-                    <Link href={`/playlist/playlist/${playlist.id}`} className="text-blue-600 hover:text-blue-900">
+                    <Link href={`/playlist/${playlist.id}`} className="text-blue-600 hover:text-blue-900">
                       View<span className="sr-only">, {playlist.name}</span>
                     </Link>
                   </td>
