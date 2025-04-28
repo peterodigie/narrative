@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Fapi\u002Fcategory\u002F[id]","\u002Fapi\u002Fplaylist\u002F[id]","\u002Fcategory\u002F[id]","\u002Fplaylist\u002F[id]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
