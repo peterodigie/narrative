@@ -1,0 +1,39 @@
+{
+  "overall_findings": {
+    "current_median_length": 13.0,
+    "recommended_ideal_length": 15,
+    "recommended_range": "12 - 20 songs"
+  },
+  "category_highlights": {
+    "instru": {
+      "playlist_count": 54,
+      "current_median": 12.0,
+      "recommended_ideal": 12,
+      "recommended_range": "8 - 16 songs"
+    },
+    "artist": {
+      "playlist_count": 51,
+      "current_median": 15.0,
+      "recommended_ideal": 15,
+      "recommended_range": "13 - 17 songs"
+    },
+    "friend": {
+      "playlist_count": 32,
+      "current_median": 11.0,
+      "recommended_ideal": 11,
+      "recommended_range": "8 - 14 songs"
+    },
+    "song": {
+      "playlist_count": 32,
+      "current_median": 15.0,
+      "recommended_ideal": 15,
+      "recommended_range": "12 - 18 songs"
+    },
+    "mood": {
+      "playlist_count": 25,
+      "current_median": 13.0,
+      "recommended_ideal": 13,
+      "recommended_range": "9 - 17 songs"
+    }
+  }
+}

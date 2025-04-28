@@ -1,0 +1,38 @@
+{
+  "total_songs": 4132,
+  "total_playlists": 282,
+  "songs_per_category": {
+    "instru": 923,
+    "artist": 737,
+    "song": 455,
+    "mood": 399,
+    "friend": 387,
+    "soundtrack": 209,
+    "anime": 174,
+    "spanish": 147,
+    "film_score": 121,
+    "pasted": 100,
+    "evocative": 98,
+    "spirit": 84,
+    "mix1": 50,
+    "oscar": 46,
+    "instru_video_games": 43,
+    "the celtic viol - la viole celtique - the treble viol": 29,
+    "naija": 25,
+    "the celtic viol ii - treble viol and lyra viol": 23,
+    "mashup1": 17,
+    "experiment": 16,
+    "person": 15,
+    "melody": 11,
+    "gramys25": 8,
+    "ida y vuelta": 7,
+    "ida": 5,
+    "vivaldi - four seasons - alexandra conunova - orchestre international de gene\u0300ve1": 3
+  },
+  "playlist_counts": {
+    "min_songs": 1,
+    "max_songs": 100,
+    "avg_songs": 14.652482269503546,
+    "median_songs": 13.0
+  }
+}

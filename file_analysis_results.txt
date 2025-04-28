@@ -1,0 +1,520 @@
+File Analysis Summary:
+=====================
+
+Category: strack (5 samples)
+--------------------------------------------------
+File: strack_Les Miserables (25th Anniversary Concert).txt
+Encoding: utf-8
+Line count: 17
+Sample content:
+  1. Overture (Look Down) - Company
+  2. Valjean's Sililoquy - Alfie Boe
+  3. Who Am I? - Alfie Boe & Norm Lewis
+  4. Fantine's Death - Alfie Boe & Lea Salonga
+  5. The Confrontation - Alfie Boe & Norm Lewis
+
+File: strack_lotr.txt
+Encoding: latin-1
+Line count: 19
+Sample content:
+  1. Main Titles from the HBO Miniseries Band of Brothers - Instrumental - Michael Kamen
+  2. May It Be - Enya
+  3. Bag End - Howard Shore
+  4. Very Old Friends - Howard Shore
+  5. Thoden King / "The Funeral of Thodred" (feat. Miranda Otto) - Howard Shore
+
+File: strack_the madness.txt
+Encoding: utf-8
+Line count: 13
+Sample content:
+  1. Muncie In Red - Philip Klein
+  2. It's Okay - Billy Allen + The Pollies
+  3. Fire Down - The Dunwells/Isaac Tyler
+  4. Almost Made Me Hate Myself - Jordan Max
+  5. Wanted (On The Run) - Beanie Sigel/Cam'ron
+
+File: strack_mulan soundtracks et al.txt
+Encoding: latin-1
+Line count: 10
+Sample content:
+  1. El Mejor Guerrero - De "Muln" - Christina Aguilera
+  2. Reflection (2020) - Christina Aguilera
+  3. Happy - From "Despicable Me 2" - Pharrell Williams
+  4. Loyal Brave True - Christina Aguilera
+  5. That's What Friends Are For - Steve Tyrell
+
+File: strack_wrong turn y otras.txt
+Encoding: utf-8
+Line count: 18
+Sample content:
+  1. White Rabbit - Jefferson Airplane
+  2. This Land Is Your Land - Ruby Modine
+  3. Save My Love (feat. Amber Mark) - Lonr./Amber Mark
+  4. Don't Let Me Be Misunderstood - Nina Simone
+  5. One - Harry Nilsson
+
+
+Category: The Celtic Viol II - Treble Viol and Lyra Viol (1 samples)
+--------------------------------------------------
+File: The Celtic Viol II - Treble Viol and Lyra Viol.txt
+Encoding: latin-1
+Line count: 24
+Sample content:
+  1. 01 The Galway Set (d minor) - The Galway Bay Hornpipe Traditional Irish - J.Savall, Treble Viol & Ly...
+  2. 02 - The Rover Reformed John Playford (1718) - J.Savall, Treble Viol & Lyra-Viol - Andrew Lawrence-K...
+  3. 03 - Lord Frog Dance John Walsh (1713) - J.Savall, Treble Viol & Lyra-Viol - Andrew Lawrence-King , ...
+  4. 04 The Gold Ring Set (D major) - The Hills of Lorne Charlie Hunter of Oban - J.Savall, Treble Viol &...
+  5. 05 - Miss Sally Hunter of Thurston Jig Nathaniel Gow (1763-1831) - J.Savall, Treble Viol & Lyra-Viol...
+
+
+Category: xment1 (1 samples)
+--------------------------------------------------
+File: xment1_songs about songs.txt
+Encoding: utf-8
+Line count: 7
+Sample content:
+  1. Untitled Opening Number - '[title of show]' Original Cast
+  2. Sara - Bob Dylan
+  3. Art Is Hard - Cursive
+  4. Sweet Is the Melody - Iris DeMent
+  5. Tribute - Tenacious D
+
+
+Category: The Celtic Viol - La Viole Celtique - The Treble Viol (1 samples)
+--------------------------------------------------
+File: The Celtic Viol - La Viole Celtique - The Treble Viol.txt
+Encoding: utf-8
+Line count: 30
+Sample content:
+  1. The Musical Priest - Scotch Mary - Jordi Savall
+  2. Caledonia's Wail  for Niel Gow - Jordi Savall
+  3. The Humours of Scariff - Jordi Savall
+  4. Alistair Maclalastair - Jordi Savall
+  5. Tom Brigg's Jig - Jordi Savall
+
+
+Category: spirit (5 samples)
+--------------------------------------------------
+File: spirit_friends ii.txt
+Encoding: utf-8
+Line count: 3
+Sample content:
+  1. Yeshua - Live - Jesus Image
+  2. Who Am I - Acoustic - Casting Crowns
+
+File: spirit_upbeat.txt
+Encoding: utf-8
+Line count: 3
+Sample content:
+  1. Burn Like a Star - Rend Collective
+  2. Bless Me - Maverick City Music/Kirk Franklin
+
+File: spirit_TobyMac & Casting Crowns.txt
+Encoding: utf-8
+Line count: 12
+Sample content:
+  1. Who Am I - Casting Crowns
+  2. Cornerstone (feat. Zach Williams) - TobyMac/Zach Williams
+  3. Nobody (feat. Matthew West) - Casting Crowns/Matthew West
+  4. Til The Day I Die - TobyMac/NF
+  5. Only Jesus - Casting Crowns
+
+File: spirit_friends.txt
+Encoding: utf-8
+Line count: 9
+Sample content:
+  1. God We Need You Now - Struggle Jennings/Caitlynne Curtis
+  2. Come Follow Me - Brother Isaiah
+  3. Closer to God - KANYE WEST & CHOIR
+  4. God We Need You Now - Acoustic - Struggle Jennings/Caitlynne Curtis
+  5. Lord You're Holy Ballin' - Kanye West Sunday Service 
+
+File: spirit_Sábado santo y otras.txt
+Encoding: utf-8
+Line count: 12
+Sample content:
+  1. Giorgia Fumanti?Ave Maria?(Caccini) - 
+  2. Stabat Mater Dolorosa - 
+  3. VOCES8 (Franz Biebl) - Ave Maria - 
+  4. Stabat Mater dolorosa - Giovanni Battista Pergolesi
+  5. wmof22 - We believe in Love - 
+
+
+Category: song16 (1 samples)
+--------------------------------------------------
+File: song16_Indie Covers et al1.txt
+Encoding: latin-1
+Line count: 21
+Sample content:
+  1. True Colors - Ane Brun
+  2. Nothing Compares 2 U - Anna of the North
+  3. Don't You Want Me - Bahamas
+  4. Can't Help Falling in Love - Beck
+  5. Crazy - Carla Bruni
+
+
+Category: song15 (1 samples)
+--------------------------------------------------
+File: song15_Pop2019.txt
+Encoding: utf-8
+Line count: 14
+Sample content:
+  1. Lie To Me (feat. Julia Michaels) - 5 Seconds of Summer
+  2. everything i wanted - Billie Eilish
+  3. No Matter What - Calum Scott
+  4. Everyday Life - Coldplay
+  5. Orphans - Coldplay
+
+
+Category: song18 (1 samples)
+--------------------------------------------------
+File: song18_Only Human y otros.txt
+Encoding: latin-1
+Line count: 21
+Sample content:
+  1. Only Human - Jason Mraz
+  2. Highway to Hell - AC/DC
+  3. Ave Maria - Beyonc
+  4. Your Power - Billie Eilish
+  5. Marvin Gaye (feat. Wale) - Remix - Charlie Puth/Wale
+
+
+Category: song2 (1 samples)
+--------------------------------------------------
+File: song2_Piece by Piece.txt
+Encoding: utf-8
+Line count: 18
+Sample content:
+  1. Piece by Piece - Kelly Clarkson
+  2. Harder To Forgive - Brandi Carlile
+  3. Breakaway - Kelly Clarkson
+  4. Stand by Me - Instrumental - Vesislava
+  5. The Mother - Brandi Carlile
+
+
+Category: song (5 samples)
+--------------------------------------------------
+File: song_oldies 4bday50s.txt
+Encoding: utf-8
+Line count: 5
+Sample content:
+  1. Unforgettable - Nat King Cole
+  2. Isn't She Lovely - Stevie Wonder
+  3. The Best Is Yet To Come - Frank Sinatra/Count Basie
+  4. Too Marvelous For Words - Frank Sinatra
+
+File: song_natural woman, I don't care y otras.txt
+Encoding: utf-8
+Line count: 10
+Sample content:
+  1. (You Make Me Feel Like) A Natural Woman - Aretha Franklin
+  2. Ed Sheeran - I Don't Care (Live At Abbey Road) - 
+  3. Memories - Maroon 5
+  4. Holocene - Bon Iver
+  5. (You Make Me Feel Like) A Natural Woman - Acoustic - Amber Leigh Irish
+
+File: song_Champions.txt
+Encoding: utf-8
+Line count: 4
+Sample content:
+  1. We Are the Champions (Acoustic) - The Moon Loungers
+  2. We Are the Champions - Pink Turtle
+  3. We Are the Champions - Lola & Hauser
+
+File: song_24ene.txt
+Encoding: latin-1
+Line count: 16
+Sample content:
+  1. See You Again (feat. Charlie Puth) - Wiz Khalifa
+  2. She - Alice Phoebe Lou
+  3. Viva La Vida - Coldplay
+  4. Skin Crawl - Alice Phoebe Lou
+  5. Drinking with a Friend - Doug Paisley
+
+File: song_24oct.txt
+Encoding: utf-8
+Line count: 16
+Sample content:
+  1. you are my sunshine - Christina Perri
+  2. Amo Soltanto Te - Andrea Bocelli/Ed Sheeran
+  3. Leave My Bones - Bear Remix - Me and My Friends/Bear
+  4. Flaws - Calum Scott
+  5. Only Time - Enya
+
+
+Category: song12 (1 samples)
+--------------------------------------------------
+File: song12_Maquia et al.txt
+Encoding: utf-8
+Line count: 14
+Sample content:
+  1. rionos - Viator (??????) [Maquia Theme Song] - 
+  2. Once Upon A Time / Storybook Love - Mark Knopfler
+  3. It's Happening - Conor Roscoe
+  4. Erich Kunzel and the Cincinnati Pops Orchestra, Julie Andrews - do-re-mi Sound of Music _ Central St...
+  5. Mask Off - Future
+
+
+Category: song3 (1 samples)
+--------------------------------------------------
+File: song3_you are the reason.txt
+Encoding: latin-1
+Line count: 19
+Sample content:
+  1. 100 Years - Five For Fighting
+  2. Don't Let the Old Man In - Radio Mix - Toby Keith
+  3. You Are The Reason - Duet Version - Calum Scott
+  4. Halo - Beyonc
+  5. exile (feat. Bon Iver) - Taylor Swift
+
+
+Category: song11 (1 samples)
+--------------------------------------------------
+File: song11_the sound of silence_shallow_y_otras.txt
+Encoding: utf-8
+Line count: 19
+Sample content:
+  1. The Sound Of Silence (Beste Zangers Seizoen 2019) - Henk Poort
+  2. What About Love - Live - Heart
+  3. Down with the Sickness - Disturbed
+  4. Song for dad - Keith Urban
+  5. Stairway To Heaven - Jimmy Page
+
+
+Category: song6 (1 samples)
+--------------------------------------------------
+File: song6_Broken People_Everybody Hurts.txt
+Encoding: utf-8
+Line count: 13
+Sample content:
+  1. Broken People (with Logic & Rag'n'Bone Man) - Logic
+  2. (Everything I Do) I Do It For You - Bryan Adams
+  3. Fix You - Coldplay
+  4. Please Forgive Me - Bryan Adams
+  5. Paradise - Coldplay
+
+
+Category: song10 (1 samples)
+--------------------------------------------------
+File: song10_Hunter_Man in the Mirror.txt
+Encoding: utf-8
+Line count: 23
+Sample content:
+  1. Hunter - RIAYA
+  2. Man in the Mirror - Stellenbosch University Choir
+  3. Without You - Amy Black
+  4. Renegades - Saxity
+  5. Remember Me - DCappella
+
+
+Category: song14 (1 samples)
+--------------------------------------------------
+File: song14_Scars To Your Beautiful y otras.txt
+Encoding: utf-8
+Line count: 16
+Sample content:
+  1. Scars To Your Beautiful - Alessia Cara
+  2. The Chain - 2004 Remaster - Fleetwood Mac
+  3. The Logical Song - Scooter
+  4. Lost on You - LP
+  5. Under Pressure - Pickin' On Series
+
+
+Category: song8 (1 samples)
+--------------------------------------------------
+File: song8_thousand years y otras.txt
+Encoding: latin-1
+Line count: 18
+Sample content:
+  1. A Thousand Years - Christina Perri
+  2. willow - Taylor Swift
+  3. Stay - Zedd/Alessia Cara
+  4. evermore (feat. Bon Iver) - Taylor Swift/Bon Iver
+  5. A Thousand Years (feat. Steve Kazee) - Pt. 2; The Twilight Saga: Breaking Dawn Soundtrack - Christin...
+
+
+Category: song1 (1 samples)
+--------------------------------------------------
+File: song1_ Lean On Me.txt
+Encoding: latin-1
+Line count: 16
+Sample content:
+  1. U Saved Me - R. Kelly
+  2. Lean on Me - Bill Withers
+  3. Pray For Me (with Kendrick Lamar) - The Weeknd
+  4. Every Time I Hear That Song - Brandi Carlile
+  5. When A Cowboy Trades His Spurs For Wings - Gillian Welch
+
+
+Category: song4 (1 samples)
+--------------------------------------------------
+File: song4_Say Something_Roar.txt
+Encoding: latin-1
+Line count: 18
+Sample content:
+  1. Say Something - Kadiatou
+  2. Roar - Katy Perry
+  3. Happy Now (feat. Sandro Cavazza) - Kygo
+  4. It Ain't Me (with Selena Gomez) - Kygo
+  5. La Di Da - Lennon Stella
+
+
+Category: oscar (5 samples)
+--------------------------------------------------
+File: oscar_2024 original songs nominations.txt
+Encoding: latin-1
+Line count: 6
+Sample content:
+  1. Time To Say Goodbye - Andrea Bocelli/Matteo Bocelli/Hans Zimmer
+  2. What Was I Made For? [From The Motion Picture "Barbie"] - Billie Eilish
+  3. IÕm Just Ken (From Barbie The Album) - Ryan Gosling
+  4. The Fire Inside (From The Original Motion Picture "Flamin' Hot") - Becky G
+  5. It Never Went Away - From the Netflix Documentary ÒAmerican SymphonyÓ - Jon Batiste
+
+File: oscar_2025 original songs nominations.txt
+Encoding: latin-1
+Line count: 10
+Sample content:
+  1. El Mal - Zoe Saldana/Karla Sofa Gascn/Camille
+  2. The Journey - H.E.R.
+  3. Like a Bird (Sing Sing Original Soundtrack) - Adrian Quesada/Abraham Alexander
+  4. Piece By Piece - Pharrell Williams/Princess Anne High School Fabulous Marching Cavaliers
+  5. Mi Camino - Selena Gomez
+
+File: oscar_2022 original songs nominations.txt
+Encoding: latin-1
+Line count: 5
+Sample content:
+  1. Be Alive (Original Song from the Motion Picture "King Richard") - Beyonc
+  2. No Time To Die - Billie Eilish
+  3. Somehow You Do - From The Motion Picture Four Good Days - Reba McEntire
+  4. Dos Oruguitas - Sebastian Yatra
+
+File: oscar_2021 original songs nominations.txt
+Encoding: latin-1
+Line count: 10
+Sample content:
+  1. Fight For You - From the Original Motion Picture "Judas and the Black Messiah" - H.E.R./Judas and th...
+  2. Io s (Seen) - Ita/Eng Version - Laura Pausini
+  3. Hear My Voice - Celeste
+  4. Io s (Seen) - Ita/Eng Version - Dave Aud Remix - Laura Pausini/Dave Aud
+  5. Husavik (My Hometown) - Cahill Remix - Will Ferrell/My Marianne/Cahill
+
+File: oscar_2023 original songs nominations.txt
+Encoding: utf-8
+Line count: 5
+Sample content:
+  1. Lift Me Up - From Black Panther: Wakanda Forever - Music From and Inspired By - Rihanna
+  2. This Is A Life - Son Lux/Mitski/David Byrne
+  3. Applause - From "Tell It Like a Woman" - Sofia Carson
+  4. Hold My Hand - Lady Gaga
+
+
+Category: person (1 samples)
+--------------------------------------------------
+File: person_saraUckelman.txt
+Encoding: utf-8
+Line count: 16
+Sample content:
+  1. Shallow - Pentatonix
+  2. Angels - Robbie Williams
+  3. If I Ain't Got You - Alicia Keys
+  4. Ho Hey - The Lumineers
+  5. His Heart Beats - Andrew Peterson
+
+
+Category: xment2 (1 samples)
+--------------------------------------------------
+File: xment2_marketingSongsVideo_big5.txt
+Encoding: latin-1
+Line count: 11
+Sample content:
+  1. Wonderful tools Ñ Apple - 
+  2. Introducing Microsoft Surface Laptop - 
+  3. Apple - iPhone 5c - Designed Together - 
+  4. Introducing Microsoft Surface Studio - 
+  5. Flirting With June - 
+
+
+Category: VIVALDI - Four Seasons - Alexandra Conunova - Orchestre International de Genève1 (1 samples)
+--------------------------------------------------
+File: VIVALDI - Four Seasons - Alexandra Conunova - Orchestre International de Genève1.txt
+Encoding: latin-1
+Line count: 4
+Sample content:
+  1. VIVALDI - Four Seasons - Alexandra Conunova - Orchestre International de Genve - 
+  2. The Four Seasons, Violin Concerto No. 3 in F Major, RV 293 "Autumn": I. Allegro - Antonio Vivaldi
+  3. Concerto No. 1 in E major, Op. 8, RV 269, "La primavera" (Spring): III. Allegro pastorale - Antonio ...
+
+
+Category: song13 (1 samples)
+--------------------------------------------------
+File: song13_a whole new world.txt
+Encoding: utf-8
+Line count: 18
+Sample content:
+  1. A Whole New World (End Title) - From "Aladdin" - ZAYN
+  2. Alone - 4biddenknowledge
+  3. A Violent Yet Flammable World - Au Revoir Simone
+  4. Love Me Like You Do - Ellie Goulding
+  5. Sucker For Pain (with Wiz Khalifa, Imagine Dragons, Logic & Ty Dolla $ign feat. X Ambassadors) - Lil...
+
+
+Category: song9 (1 samples)
+--------------------------------------------------
+File: song9_Let It Be.txt
+Encoding: utf-8
+Line count: 16
+Sample content:
+  1. Let It Be - Aretha Franklin
+  2. New Eyes - Adam Lambert
+  3. Dream On - Aerosmith
+  4. Let It Be - The Beatles - Laruan
+  5. Hallelujah - Bono
+
+
+Category: naija (2 samples)
+--------------------------------------------------
+File: naija_faceMask.txt
+Encoding: utf-8
+Line count: 10
+Sample content:
+  1. Eh God (Barnabas) - Kizz Daniel
+  2. Oshe (feat. The Cavemen.) - Kizz Daniel/The Cavemen.
+  3. Cough (Odo) - Kizz Daniel/EMPIRE
+  4. Buga (Lo Lo Lo) - Kizz Daniel/Tekno
+  5. Gbona - Burna Boy
+
+File: naija.txt
+Encoding: utf-8
+Line count: 7
+Sample content:
+  1. No One Like U (Instrumental) - P-Square
+  2. Fada Fada (Ghetto Gospel) - Phyno
+  3. African Queen - Blackface/2Face
+  4. Alashe L'Aiye - King Sunny Ade
+  5. Iyawo Mi - Timi Dakolo
+
+
+Category: mood (5 samples)
+--------------------------------------------------
+File: mood_spice.txt
+Encoding: utf-8
+Line count: 9
+Sample content:
+  1. When We're High - LP
+  2. Royals - Lorde
+  3. Doin' Time - Lana Del Rey
+  4. Water - Tyla
+  5. Stolen Dance - Milky Chance
+
+File: mood_nada importa.txt
+Encoding: utf-8
+Line count: 14
+Sample content:
+  1. Nothing Else Matters - Metallica
+  2. Bohemian Rhapsody - Remastered 2011 - Queen
+  3. Numb - Linkin Park
+  4. Grace Kelly - Acoustic - Mika
+  5. Nothing Matters - 
+(Content truncated due to size limit. Use line ranges to read in chunks)

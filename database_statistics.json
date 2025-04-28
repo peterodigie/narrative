@@ -1,0 +1,145 @@
+{
+  "database_path": "/home/ubuntu/music_analysis/music_database.db",
+  "total_categories": 26,
+  "total_playlists": 286,
+  "total_songs": 4132,
+  "category_statistics": [
+    {
+      "category": "instru",
+      "playlist_count": 54,
+      "song_count": 923
+    },
+    {
+      "category": "artist",
+      "playlist_count": 51,
+      "song_count": 737
+    },
+    {
+      "category": "song",
+      "playlist_count": 32,
+      "song_count": 455
+    },
+    {
+      "category": "mood",
+      "playlist_count": 25,
+      "song_count": 399
+    },
+    {
+      "category": "friend",
+      "playlist_count": 32,
+      "song_count": 387
+    },
+    {
+      "category": "soundtrack",
+      "playlist_count": 12,
+      "song_count": 209
+    },
+    {
+      "category": "anime",
+      "playlist_count": 12,
+      "song_count": 174
+    },
+    {
+      "category": "spanish",
+      "playlist_count": 12,
+      "song_count": 147
+    },
+    {
+      "category": "film_score",
+      "playlist_count": 10,
+      "song_count": 121
+    },
+    {
+      "category": "pasted",
+      "playlist_count": 1,
+      "song_count": 100
+    },
+    {
+      "category": "evocative",
+      "playlist_count": 10,
+      "song_count": 98
+    },
+    {
+      "category": "spirit",
+      "playlist_count": 11,
+      "song_count": 84
+    },
+    {
+      "category": "mix1",
+      "playlist_count": 1,
+      "song_count": 50
+    },
+    {
+      "category": "oscar",
+      "playlist_count": 6,
+      "song_count": 46
+    },
+    {
+      "category": "instru_video_games",
+      "playlist_count": 3,
+      "song_count": 43
+    },
+    {
+      "category": "the celtic viol - la viole celtique - the treble viol",
+      "playlist_count": 1,
+      "song_count": 29
+    },
+    {
+      "category": "naija",
+      "playlist_count": 3,
+      "song_count": 25
+    },
+    {
+      "category": "the celtic viol ii - treble viol and lyra viol",
+      "playlist_count": 1,
+      "song_count": 23
+    },
+    {
+      "category": "mashup1",
+      "playlist_count": 1,
+      "song_count": 17
+    },
+    {
+      "category": "experiment",
+      "playlist_count": 2,
+      "song_count": 16
+    },
+    {
+      "category": "person",
+      "playlist_count": 1,
+      "song_count": 15
+    },
+    {
+      "category": "melody",
+      "playlist_count": 1,
+      "song_count": 11
+    },
+    {
+      "category": "gramys25",
+      "playlist_count": 1,
+      "song_count": 8
+    },
+    {
+      "category": "ida y vuelta",
+      "playlist_count": 1,
+      "song_count": 7
+    },
+    {
+      "category": "ida",
+      "playlist_count": 1,
+      "song_count": 5
+    },
+    {
+      "category": "vivaldi - four seasons - alexandra conunova - orchestre international de gene\u0300ve1",
+      "playlist_count": 1,
+      "song_count": 3
+    }
+  ],
+  "playlist_statistics": {
+    "average_length": 14.447552447552448,
+    "min_length": 1,
+    "max_length": 100,
+    "median_length": 13.0,
+    "count": 286
+  }
+}
