@@ -2,6 +2,7 @@
   "name": "playlist-manager",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://peterodigie.github.io/playlist",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
