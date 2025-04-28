@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import { get_categories, get_comprehensive_insights, get_optimization_recommendations } from './data';
 
 export default function Home() {
   const [categories, setCategories] = useState([]);
@@ -10,29 +11,15 @@ export default function Home() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    async function fetchData() {
-      try {
-        const [categoriesRes, insightsRes, recommendationsRes] = await Promise.all([
-          fetch('/api/categories'),
-          fetch('/api/insights'),
-          fetch('/api/recommendations')
-        ]);
-        
-        const categoriesData = await categoriesRes.json();
-        const insightsData = await insightsRes.json();
-        const recommendationsData = await recommendationsRes.json();
-        
-        setCategories(categoriesData);
-        setInsights(insightsData);
-        setRecommendations(recommendationsData);
-      } catch (error) {
-        console.error('Error fetching data:', error);
-      } finally {
-        setLoading(false);
-      }
-    }
+    // Get data directly from the mock data module instead of API fetch
+    const categoriesData = get_categories();
+    const insightsData = get_comprehensive_insights();
+    const recommendationsData = get_optimization_recommendations();
     
-    fetchData();
+    setCategories(categoriesData);
+    setInsights(insightsData);
+    setRecommendations(recommendationsData);
+    setLoading(false);
   }, []);
 
   if (loading) {
@@ -40,7 +27,7 @@ export default function Home() {
       <div className="flex items-center justify-center min-h-screen">
         <div className="text-center">
           <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-blue-500 mx-auto"></div>
-          <p className="mt-4 text-lg">Loading your music collection...</p>
+          <p className="mt-4 text-lg">Loading music collection...</p>
         </div>
       </div>
     );
@@ -98,7 +85,7 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {categories.map(category => (
             <Link 
-              href={`/category/${category.id}`} 
+              href={`/playlist/category/${category.id}`} 
               key={category.id}
               className="bg-white p-4 rounded shadow hover:shadow-lg transition-shadow"
             >
@@ -115,7 +102,7 @@ export default function Home() {
         <h2 className="text-xl font-semibold mb-4">Tools</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <Link 
-            href="/playlists" 
+            href="/playlist/playlists" 
             className="bg-white p-4 rounded shadow hover:shadow-lg transition-shadow"
           >
             <h3 className="font-medium text-blue-700">All Playlists</h3>
@@ -124,7 +111,7 @@ export default function Home() {
             </p>
           </Link>
           <Link 
-            href="/optimization" 
+            href="/playlist/optimization" 
             className="bg-white p-4 rounded shadow hover:shadow-lg transition-shadow"
           >
             <h3 className="font-medium text-blue-700">Optimization Tool</h3>

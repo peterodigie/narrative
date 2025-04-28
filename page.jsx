@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
+import { get_comprehensive_insights, get_optimization_recommendations, get_all_playlists_with_category } from './data';
 
 export default function OptimizationPage() {
   const [insights, setInsights] = useState(null);
@@ -11,35 +12,21 @@ export default function OptimizationPage() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    async function fetchData() {
-      try {
-        // Fetch insights
-        const insightsRes = await fetch('/playlist/api/insights');
-        // Fetch recommendations
-        const recommendationsRes = await fetch('/playlist/api/recommendations');
-        // Fetch playlists
-        const playlistsRes = await fetch('/playlist/api/playlists');
-        
-        if (!insightsRes.ok || !recommendationsRes.ok || !playlistsRes.ok) {
-          throw new Error('Failed to fetch data');
-        }
-        
-        const insightsData = await insightsRes.json();
-        const recommendationsData = await recommendationsRes.json();
-        const playlistsData = await playlistsRes.json();
-        
-        setInsights(insightsData);
-        setRecommendations(recommendationsData);
-        setPlaylists(playlistsData);
-        setLoading(false);
-      } catch (err) {
-        console.error('Error fetching data:', err);
-        setError('Failed to load optimization data. Please try again later.');
-        setLoading(false);
-      }
+    try {
+      // Get data directly from the mock data module instead of API fetch
+      const insightsData = get_comprehensive_insights();
+      const recommendationsData = get_optimization_recommendations();
+      const playlistsData = get_all_playlists_with_category();
+      
+      setInsights(insightsData);
+      setRecommendations(recommendationsData);
+      setPlaylists(playlistsData);
+      setLoading(false);
+    } catch (err) {
+      console.error('Error getting data:', err);
+      setError('Failed to load optimization data. Please try again later.');
+      setLoading(false);
     }
-    
-    fetchData();
   }, []);
 
   if (loading) {

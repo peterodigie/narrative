@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
+import { get_categories, get_playlists_by_category } from './data';
 
 export default function CategoryPageClient({ params }) {
   const [playlists, setPlaylists] = useState([]);
@@ -10,46 +11,35 @@ export default function CategoryPageClient({ params }) {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    async function fetchData() {
-      try {
-        const categoryId = parseInt(params.id);
-        
-        // Fetch category playlists
-        const playlistsResponse = await fetch(`/playlist/api/category/${categoryId}`);
-        if (!playlistsResponse.ok) {
-          throw new Error('Failed to fetch playlists');
+    try {
+      const categoryId = parseInt(params.id);
+      
+      // Get data directly from the mock data module instead of API fetch
+      const playlistsData = get_playlists_by_category(categoryId);
+      
+      // Get category name from first playlist or all categories
+      let categoryName = '';
+      if (playlistsData.length > 0) {
+        categoryName = playlistsData[0].category_name;
+      } else {
+        const categoriesData = get_categories();
+        const foundCategory = categoriesData.find(c => c.id === categoryId);
+        if (foundCategory) {
+          categoryName = foundCategory.name;
         }
-        const playlistsData = await playlistsResponse.json();
-        
-        // Get category name from first playlist or fetch categories
-        let categoryName = '';
-        if (playlistsData.length > 0) {
-          categoryName = playlistsData[0].category_name;
-        } else {
-          const categoriesResponse = await fetch('/playlist/api/categories');
-          if (categoriesResponse.ok) {
-            const categoriesData = await categoriesResponse.json();
-            const foundCategory = categoriesData.find(c => c.id === categoryId);
-            if (foundCategory) {
-              categoryName = foundCategory.name;
-            }
-          }
-        }
-        
-        setCategory({
-          id: categoryId,
-          name: categoryName
-        });
-        setPlaylists(playlistsData);
-        setLoading(false);
-      } catch (err) {
-        console.error('Error fetching data:', err);
-        setError('Failed to load category data. Please try again later.');
-        setLoading(false);
       }
+      
+      setCategory({
+        id: categoryId,
+        name: categoryName
+      });
+      setPlaylists(playlistsData);
+      setLoading(false);
+    } catch (err) {
+      console.error('Error getting data:', err);
+      setError('Failed to load category data. Please try again later.');
+      setLoading(false);
     }
-    
-    fetchData();
   }, [params.id]);
 
   if (loading) {
@@ -67,7 +57,7 @@ export default function CategoryPageClient({ params }) {
   return (
     <div className="container mx-auto p-4">
       <div className="mb-6">
-        <Link href="/" className="text-blue-500 hover:underline">
+        <Link href="/playlist" className="text-blue-500 hover:underline">
           ← Back to Categories
         </Link>
       </div>
@@ -80,7 +70,7 @@ export default function CategoryPageClient({ params }) {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {playlists.map(playlist => (
             <div key={playlist.id} className="border rounded-lg p-4 hover:shadow-lg transition-shadow">
-              <Link href={`/playlist/${playlist.id}`}>
+              <Link href={`/playlist/playlist/${playlist.id}`}>
                 <h2 className="text-xl font-semibold mb-2">{playlist.name}</h2>
                 <p className="text-gray-600">{playlist.song_count} songs</p>
               </Link>
