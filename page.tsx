@@ -85,7 +85,7 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {categories.map(category => (
             <Link 
-              href={`/playlist/category/${category.id}`} 
+              href={`/category/${category.id}`} 
               key={category.id}
               className="bg-white p-4 rounded shadow hover:shadow-lg transition-shadow"
             >
@@ -102,7 +102,7 @@ export default function Home() {
         <h2 className="text-xl font-semibold mb-4">Tools</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <Link 
-            href="/playlist/playlists" 
+            href="/playlists" 
             className="bg-white p-4 rounded shadow hover:shadow-lg transition-shadow"
           >
             <h3 className="font-medium text-blue-700">All Playlists</h3>
@@ -111,7 +111,7 @@ export default function Home() {
             </p>
           </Link>
           <Link 
-            href="/playlist/optimization" 
+            href="/optimization" 
             className="bg-white p-4 rounded shadow hover:shadow-lg transition-shadow"
           >
             <h3 className="font-medium text-blue-700">Optimization Tool</h3>

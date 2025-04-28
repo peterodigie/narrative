@@ -57,7 +57,7 @@ export default function CategoryPageClient({ params }) {
   return (
     <div className="container mx-auto p-4">
       <div className="mb-6">
-        <Link href="/playlist" className="text-blue-500 hover:underline">
+        <Link href="/" className="text-blue-500 hover:underline">
           ← Back to Categories
         </Link>
       </div>
@@ -70,7 +70,7 @@ export default function CategoryPageClient({ params }) {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {playlists.map(playlist => (
             <div key={playlist.id} className="border rounded-lg p-4 hover:shadow-lg transition-shadow">
-              <Link href={`/playlist/playlist/${playlist.id}`}>
+              <Link href={`/playlist/${playlist.id}`}>
                 <h2 className="text-xl font-semibold mb-2">{playlist.name}</h2>
                 <p className="text-gray-600">{playlist.song_count} songs</p>
               </Link>

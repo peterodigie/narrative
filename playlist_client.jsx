@@ -47,7 +47,7 @@ export default function PlaylistDetailClient({ params }) {
     <div className="container mx-auto p-4">
       <div className="mb-6">
         <Link 
-          href={`/playlist/category/${playlist.category_id}`} 
+          href={`/category/${playlist.category_id}`} 
           className="text-blue-500 hover:underline"
         >
           ← Back to {playlist.category_name} Playlists
@@ -94,10 +94,10 @@ export default function PlaylistDetailClient({ params }) {
       </div>
       
       <div className="flex space-x-4">
-        <Link href="/playlist" className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
+        <Link href="/" className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
           Back to Home
         </Link>
-        <Link href="/playlist/playlists" className="bg-gray-500 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded">
+        <Link href="/playlists" className="bg-gray-500 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded">
           All Playlists
         </Link>
       </div>
