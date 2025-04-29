@@ -1,16 +1,17 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/playlist',
+  basePath: '/narrative',
+  assetPrefix: '/narrative/',
+  trailingSlash: true,
   images: {
     unoptimized: true,
   },
-  trailingSlash: true,
   eslint: {
-    // Warning: This allows production builds to successfully complete even if
-    // your project has ESLint errors.
     ignoreDuringBuilds: true,
   },
-}
+  // Optional: Better debugging if needed
+  reactStrictMode: true,
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

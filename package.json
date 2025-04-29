@@ -2,10 +2,11 @@
   "name": "playlist-manager",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://peterodigie.github.io/playlist",
+  "homepage": "https://peterodigie.github.io/narrative",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "deploy": "echo 'Handled by GitHub Actions'",
     "start": "next start",
     "lint": "next lint"
   },
@@ -18,8 +19,9 @@
     "@types/node": "^20.10.0",
     "@types/react": "^18.2.39",
     "autoprefixer": "^10.4.16",
+    "babel-loader": "^10.0.0",
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.5",
     "typescript": "^5.3.2"
   }
-} 
+}

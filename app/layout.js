@@ -8,6 +8,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <base href="/playlist/" />
+      </head>
       <body className="bg-gray-100 min-h-screen">
         <header className="bg-blue-600 text-white shadow-md">
           <div className="container mx-auto px-4 py-4">
